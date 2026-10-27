@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+venv/
+.venv/
+.ipynb_checkpoints/
+figures/
+data/
+*.tmp*
+*_test*rounds.json
