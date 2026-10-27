@@ -1,0 +1,962 @@
+{
+  "label_flipping|unified|42": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 42,
+    "accuracy": 97.719,
+    "f1_binary": 93.20058425492593,
+    "recall_binary": 92.56320682100775,
+    "precision_binary": 93.84680033617481,
+    "roc_auc": 99.71549568818855,
+    "mcc": 91.83344866484526,
+    "balanced_accuracy": 95.66495820108514,
+    "pr_auc": 98.66394728044823,
+    "confusion_matrix": [
+      [
+        82086,
+        1025
+      ],
+      [
+        1256,
+        15633
+      ]
+    ],
+    "best_threshold": 0.6000000000000002
+  },
+  "label_flipping|lf_tuned|42": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 42,
+    "accuracy": 97.72800000000001,
+    "f1_binary": 92.88621704552571,
+    "recall_binary": 87.82639587897448,
+    "precision_binary": 98.56468868363346,
+    "roc_auc": 99.47743041576618,
+    "mcc": 91.75529940190263,
+    "balanced_accuracy": 93.78325124169754,
+    "pr_auc": 97.94195701958442,
+    "confusion_matrix": [
+      [
+        82895,
+        216
+      ],
+      [
+        2056,
+        14833
+      ]
+    ],
+    "best_threshold": 0.6000000000000002
+  },
+  "model_poisoning|unified|42": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 42,
+    "accuracy": 97.108,
+    "f1_binary": 91.79481359586904,
+    "recall_binary": 95.78423826159039,
+    "precision_binary": 88.12442120172142,
+    "roc_auc": 99.59607417621893,
+    "mcc": 90.15839077227253,
+    "balanced_accuracy": 96.58062005125096,
+    "pr_auc": 98.27656365498927,
+    "confusion_matrix": [
+      [
+        80931,
+        2180
+      ],
+      [
+        712,
+        16177
+      ]
+    ],
+    "best_threshold": 0.8000000000000003
+  },
+  "model_poisoning|lf_tuned|42": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 42,
+    "accuracy": 91.735,
+    "f1_binary": 67.98869049924474,
+    "recall_binary": 51.968737047782575,
+    "precision_binary": 98.28667413213886,
+    "roc_auc": 76.11869911282233,
+    "mcc": 68.03287667420476,
+    "balanced_accuracy": 75.89232294629025,
+    "pr_auc": 59.561266776377465,
+    "confusion_matrix": [
+      [
+        82958,
+        153
+      ],
+      [
+        8112,
+        8777
+      ]
+    ],
+    "best_threshold": 0.1
+  },
+  "label_flipping|unified|123": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 123,
+    "accuracy": 97.436,
+    "f1_binary": 92.6359928772474,
+    "recall_binary": 95.4881875777133,
+    "precision_binary": 89.94924424117352,
+    "roc_auc": 99.68909228161668,
+    "mcc": 91.14504611591461,
+    "balanced_accuracy": 96.66000143044441,
+    "pr_auc": 98.66648535298714,
+    "confusion_matrix": [
+      [
+        81309,
+        1802
+      ],
+      [
+        762,
+        16127
+      ]
+    ],
+    "best_threshold": 0.9000000000000002
+  },
+  "label_flipping|unified|7": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 7,
+    "accuracy": 98.041,
+    "f1_binary": 94.12857785104151,
+    "recall_binary": 92.97767777843566,
+    "precision_binary": 95.308327263899,
+    "roc_auc": 99.77570022412787,
+    "mcc": 92.96343014117996,
+    "balanced_accuracy": 96.02379816055375,
+    "pr_auc": 99.00053061977832,
+    "confusion_matrix": [
+      [
+        82338,
+        773
+      ],
+      [
+        1186,
+        15703
+      ]
+    ],
+    "best_threshold": 0.5000000000000001
+  },
+  "label_flipping|unified|99": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 99,
+    "accuracy": 97.795,
+    "f1_binary": 93.28583173472185,
+    "recall_binary": 90.69808751258216,
+    "precision_binary": 96.02557673019058,
+    "roc_auc": 99.73012043737643,
+    "mcc": 92.02162893642686,
+    "balanced_accuracy": 94.967626134075,
+    "pr_auc": 98.83083234064266,
+    "confusion_matrix": [
+      [
+        82477,
+        634
+      ],
+      [
+        1571,
+        15318
+      ]
+    ],
+    "best_threshold": 0.7000000000000002
+  },
+  "label_flipping|unified|500": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 500,
+    "accuracy": 97.366,
+    "f1_binary": 91.97098091812474,
+    "recall_binary": 89.3244123393925,
+    "precision_binary": 94.7791669284413,
+    "roc_auc": 99.62807943124021,
+    "mcc": 90.45403020034445,
+    "balanced_accuracy": 94.16227234625532,
+    "pr_auc": 98.35280079227064,
+    "confusion_matrix": [
+      [
+        82280,
+        831
+      ],
+      [
+        1803,
+        15086
+      ]
+    ],
+    "best_threshold": 0.7000000000000002
+  },
+  "label_flipping|unified|2024": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 2024,
+    "accuracy": 96.48,
+    "f1_binary": 88.6678256390445,
+    "recall_binary": 81.53827935342531,
+    "precision_binary": 97.16362096944894,
+    "roc_auc": 99.14229556308918,
+    "mcc": 87.06948370368468,
+    "balanced_accuracy": 90.52729443360403,
+    "pr_auc": 96.38102356635423,
+    "confusion_matrix": [
+      [
+        82709,
+        402
+      ],
+      [
+        3118,
+        13771
+      ]
+    ],
+    "best_threshold": 0.8000000000000003
+  },
+  "label_flipping|unified|31": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 31,
+    "accuracy": 97.756,
+    "f1_binary": 93.1743521109624,
+    "recall_binary": 90.68624548522706,
+    "precision_binary": 95.80283980734346,
+    "roc_auc": 99.74906983978438,
+    "mcc": 91.88237132713604,
+    "balanced_accuracy": 94.93944573235015,
+    "pr_auc": 98.91080037023234,
+    "confusion_matrix": [
+      [
+        82440,
+        671
+      ],
+      [
+        1573,
+        15316
+      ]
+    ],
+    "best_threshold": 0.5500000000000002
+  },
+  "label_flipping|unified|77": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 77,
+    "accuracy": 97.82,
+    "f1_binary": 93.58370614551448,
+    "recall_binary": 94.13227544555627,
+    "precision_binary": 93.04149353309533,
+    "roc_auc": 99.77303344903811,
+    "mcc": 92.27297047031014,
+    "balanced_accuracy": 96.3508292798524,
+    "pr_auc": 98.96420094584948,
+    "confusion_matrix": [
+      [
+        81922,
+        1189
+      ],
+      [
+        991,
+        15898
+      ]
+    ],
+    "best_threshold": 0.5000000000000001
+  },
+  "label_flipping|unified|1001": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 1001,
+    "accuracy": 98.039,
+    "f1_binary": 94.1239924489857,
+    "recall_binary": 92.99544081946829,
+    "precision_binary": 95.2802717786945,
+    "roc_auc": 99.791292585398,
+    "mcc": 92.95718179366455,
+    "balanced_accuracy": 96.02967165565828,
+    "pr_auc": 99.04614553489246,
+    "confusion_matrix": [
+      [
+        82333,
+        778
+      ],
+      [
+        1183,
+        15706
+      ]
+    ],
+    "best_threshold": 0.8500000000000003
+  },
+  "label_flipping|unified|256": {
+    "attack": "label_flipping",
+    "config": "unified",
+    "seed": 256,
+    "accuracy": 96.501,
+    "f1_binary": 90.48383148848215,
+    "recall_binary": 98.49606252590443,
+    "precision_binary": 83.67706237424547,
+    "roc_auc": 99.7150216779552,
+    "mcc": 88.79844119346065,
+    "balanced_accuracy": 97.29582277069488,
+    "pr_auc": 98.72886962527697,
+    "confusion_matrix": [
+      [
+        79866,
+        3245
+      ],
+      [
+        254,
+        16635
+      ]
+    ],
+    "best_threshold": 0.9000000000000002
+  },
+  "label_flipping|lf_tuned|123": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 123,
+    "accuracy": 97.543,
+    "f1_binary": 92.37832304494835,
+    "recall_binary": 88.16389365859435,
+    "precision_binary": 97.0158978368517,
+    "roc_auc": 99.28515698261789,
+    "mcc": 91.0656078841374,
+    "balanced_accuracy": 93.80641170157642,
+    "pr_auc": 98.0394768311292,
+    "confusion_matrix": [
+      [
+        82653,
+        458
+      ],
+      [
+        1999,
+        14890
+      ]
+    ],
+    "best_threshold": 0.30000000000000004
+  },
+  "label_flipping|lf_tuned|7": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 7,
+    "accuracy": 96.87,
+    "f1_binary": 89.89213976619517,
+    "recall_binary": 82.40866836402392,
+    "precision_binary": 98.8704979754209,
+    "roc_auc": 99.31732666472544,
+    "mcc": 88.56965787113315,
+    "balanced_accuracy": 91.10867897391677,
+    "pr_auc": 97.23950332590434,
+    "confusion_matrix": [
+      [
+        82952,
+        159
+      ],
+      [
+        2971,
+        13918
+      ]
+    ],
+    "best_threshold": 0.5500000000000002
+  },
+  "label_flipping|lf_tuned|99": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 99,
+    "accuracy": 97.918,
+    "f1_binary": 93.80578364869689,
+    "recall_binary": 93.34478062644325,
+    "precision_binary": 94.27136279375709,
+    "roc_auc": 99.72191108737962,
+    "mcc": 92.55615903969132,
+    "balanced_accuracy": 96.09605264432099,
+    "pr_auc": 98.87870353675969,
+    "confusion_matrix": [
+      [
+        82153,
+        958
+      ],
+      [
+        1124,
+        15765
+      ]
+    ],
+    "best_threshold": 0.6000000000000002
+  },
+  "label_flipping|lf_tuned|500": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 500,
+    "accuracy": 95.999,
+    "f1_binary": 89.22811835339095,
+    "recall_binary": 98.11711765054177,
+    "precision_binary": 81.8159375925743,
+    "roc_auc": 99.28678297984652,
+    "mcc": 87.33627119608659,
+    "balanced_accuracy": 96.84284730693997,
+    "pr_auc": 97.86884369213483,
+    "confusion_matrix": [
+      [
+        79428,
+        3683
+      ],
+      [
+        318,
+        16571
+      ]
+    ],
+    "best_threshold": 0.20000000000000004
+  },
+  "label_flipping|lf_tuned|2024": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 2024,
+    "accuracy": 94.581,
+    "f1_binary": 84.26675957378858,
+    "recall_binary": 85.92575048848363,
+    "precision_binary": 82.6706163837302,
+    "roc_auc": 98.7678275856101,
+    "mcc": 81.01707713084109,
+    "balanced_accuracy": 91.1327925837035,
+    "pr_auc": 95.53965919064163,
+    "confusion_matrix": [
+      [
+        80069,
+        3042
+      ],
+      [
+        2377,
+        14512
+      ]
+    ],
+    "best_threshold": 0.3500000000000001
+  },
+  "label_flipping|lf_tuned|31": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 31,
+    "accuracy": 97.49799999999999,
+    "f1_binary": 92.65500234852043,
+    "recall_binary": 93.4395168452839,
+    "precision_binary": 91.88355167394468,
+    "roc_auc": 99.6800200456281,
+    "mcc": 91.1519873913166,
+    "balanced_accuracy": 95.88112093783248,
+    "pr_auc": 98.6327690385784,
+    "confusion_matrix": [
+      [
+        81717,
+        1394
+      ],
+      [
+        1108,
+        15781
+      ]
+    ],
+    "best_threshold": 0.3500000000000001
+  },
+  "label_flipping|lf_tuned|77": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 77,
+    "accuracy": 95.078,
+    "f1_binary": 87.06234885921565,
+    "recall_binary": 98.05790751376635,
+    "precision_binary": 78.28409359489483,
+    "roc_auc": 99.16003673275462,
+    "mcc": 84.88322667560159,
+    "balanced_accuracy": 96.26518000852255,
+    "pr_auc": 97.61578518929288,
+    "confusion_matrix": [
+      [
+        78517,
+        4594
+      ],
+      [
+        328,
+        16561
+      ]
+    ],
+    "best_threshold": 0.15000000000000002
+  },
+  "label_flipping|lf_tuned|1001": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 1001,
+    "accuracy": 97.557,
+    "f1_binary": 92.8935043779271,
+    "recall_binary": 94.54082538930665,
+    "precision_binary": 91.30260750228729,
+    "roc_auc": 99.7144518825323,
+    "mcc": 91.43924947531772,
+    "balanced_accuracy": 96.35537136438417,
+    "pr_auc": 98.67095977570781,
+    "confusion_matrix": [
+      [
+        81590,
+        1521
+      ],
+      [
+        922,
+        15967
+      ]
+    ],
+    "best_threshold": 0.30000000000000004
+  },
+  "label_flipping|lf_tuned|256": {
+    "attack": "label_flipping",
+    "config": "lf_tuned",
+    "seed": 256,
+    "accuracy": 97.485,
+    "f1_binary": 92.1955003878976,
+    "recall_binary": 87.95665817988039,
+    "precision_binary": 96.86358894105372,
+    "roc_auc": 99.67286525886556,
+    "mcc": 90.85052747788846,
+    "balanced_accuracy": 93.68895704532517,
+    "pr_auc": 98.44799863509992,
+    "confusion_matrix": [
+      [
+        82630,
+        481
+      ],
+      [
+        2034,
+        14855
+      ]
+    ],
+    "best_threshold": 0.7500000000000002
+  },
+  "model_poisoning|unified|123": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 123,
+    "accuracy": 97.576,
+    "f1_binary": 92.92758359106028,
+    "recall_binary": 94.2921428148499,
+    "precision_binary": 91.60195570894449,
+    "roc_auc": 99.66521195453964,
+    "mcc": 91.47924886601993,
+    "balanced_accuracy": 96.26772798717973,
+    "pr_auc": 98.62781620045548,
+    "confusion_matrix": [
+      [
+        81651,
+        1460
+      ],
+      [
+        964,
+        15925
+      ]
+    ],
+    "best_threshold": 0.7000000000000002
+  },
+  "model_poisoning|unified|7": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 7,
+    "accuracy": 97.90299999999999,
+    "f1_binary": 93.704404215077,
+    "recall_binary": 92.40333945171413,
+    "precision_binary": 95.04263093788063,
+    "roc_auc": 99.75796283030107,
+    "mcc": 92.45988116756268,
+    "balanced_accuracy": 95.71196318881624,
+    "pr_auc": 98.91772058240514,
+    "confusion_matrix": [
+      [
+        82297,
+        814
+      ],
+      [
+        1283,
+        15606
+      ]
+    ],
+    "best_threshold": 0.6500000000000001
+  },
+  "model_poisoning|unified|99": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 99,
+    "accuracy": 97.626,
+    "f1_binary": 93.07104080322223,
+    "recall_binary": 94.40464207472318,
+    "precision_binary": 91.77459275887871,
+    "roc_auc": 99.71667296617848,
+    "mcc": 91.65232099772462,
+    "balanced_accuracy": 96.34262737466953,
+    "pr_auc": 98.81091684151876,
+    "confusion_matrix": [
+      [
+        81682,
+        1429
+      ],
+      [
+        945,
+        15944
+      ]
+    ],
+    "best_threshold": 0.6500000000000001
+  },
+  "model_poisoning|unified|500": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 500,
+    "accuracy": 97.43,
+    "f1_binary": 92.53297693067582,
+    "recall_binary": 94.28622180117236,
+    "precision_binary": 90.84374465172,
+    "roc_auc": 99.6700412521556,
+    "mcc": 91.00447746237047,
+    "balanced_accuracy": 96.17753474339881,
+    "pr_auc": 98.54563139830749,
+    "confusion_matrix": [
+      [
+        81506,
+        1605
+      ],
+      [
+        965,
+        15924
+      ]
+    ],
+    "best_threshold": 0.6500000000000001
+  },
+  "model_poisoning|unified|2024": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 2024,
+    "accuracy": 97.197,
+    "f1_binary": 91.82011848133773,
+    "recall_binary": 93.14938717508437,
+    "precision_binary": 90.52825411439751,
+    "roc_auc": 99.54413455922237,
+    "mcc": 90.14262562760939,
+    "balanced_accuracy": 95.58445162197806,
+    "pr_auc": 97.96982862347367,
+    "confusion_matrix": [
+      [
+        81465,
+        1646
+      ],
+      [
+        1157,
+        15732
+      ]
+    ],
+    "best_threshold": 0.8000000000000003
+  },
+  "model_poisoning|unified|31": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 31,
+    "accuracy": 97.651,
+    "f1_binary": 93.39816194036142,
+    "recall_binary": 98.38356326603115,
+    "precision_binary": 88.89364433982453,
+    "roc_auc": 99.75746320848303,
+    "mcc": 92.14898050513887,
+    "balanced_accuracy": 97.94284948203676,
+    "pr_auc": 98.87468610975966,
+    "confusion_matrix": [
+      [
+        81035,
+        2076
+      ],
+      [
+        273,
+        16616
+      ]
+    ],
+    "best_threshold": 0.3500000000000001
+  },
+  "model_poisoning|unified|77": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 77,
+    "accuracy": 98.021,
+    "f1_binary": 94.17101116314689,
+    "recall_binary": 94.65332464917994,
+    "precision_binary": 93.69358809049349,
+    "roc_auc": 99.76845324990879,
+    "mcc": 92.98098277192418,
+    "balanced_accuracy": 96.6793352559709,
+    "pr_auc": 98.94544919524215,
+    "confusion_matrix": [
+      [
+        82035,
+        1076
+      ],
+      [
+        903,
+        15986
+      ]
+    ],
+    "best_threshold": 0.6500000000000001
+  },
+  "model_poisoning|unified|1001": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 1001,
+    "accuracy": 97.682,
+    "f1_binary": 93.25888442970977,
+    "recall_binary": 94.93753330570193,
+    "precision_binary": 91.63856661141911,
+    "roc_auc": 99.75058013961781,
+    "mcc": 91.88071851971401,
+    "balanced_accuracy": 96.58861841735867,
+    "pr_auc": 98.87932877015993,
+    "confusion_matrix": [
+      [
+        81648,
+        1463
+      ],
+      [
+        855,
+        16034
+      ]
+    ],
+    "best_threshold": 0.9000000000000002
+  },
+  "model_poisoning|unified|256": {
+    "attack": "model_poisoning",
+    "config": "unified",
+    "seed": 256,
+    "accuracy": 95.025,
+    "f1_binary": 87.0883184967948,
+    "recall_binary": 99.34276748179288,
+    "precision_binary": 77.52518251547916,
+    "roc_auc": 99.66385454054986,
+    "mcc": 85.05652877218107,
+    "balanced_accuracy": 96.7451766202987,
+    "pr_auc": 98.4942662754001,
+    "confusion_matrix": [
+      [
+        78247,
+        4864
+      ],
+      [
+        111,
+        16778
+      ]
+    ],
+    "best_threshold": 0.9000000000000002
+  },
+  "model_poisoning|lf_tuned|123": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 123,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "recall_binary": 100.0,
+    "precision_binary": 16.889000000000003,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "balanced_accuracy": 50.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ],
+    "best_threshold": 0.1
+  },
+  "model_poisoning|lf_tuned|7": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 7,
+    "accuracy": 90.184,
+    "f1_binary": 62.758934668791255,
+    "recall_binary": 48.97270412694653,
+    "precision_binary": 87.34818882669765,
+    "roc_auc": 91.90781192509851,
+    "mcc": 60.82187673457793,
+    "balanced_accuracy": 73.7656291748063,
+    "pr_auc": 64.35040194525823,
+    "confusion_matrix": [
+      [
+        81913,
+        1198
+      ],
+      [
+        8618,
+        8271
+      ]
+    ],
+    "best_threshold": 0.5000000000000001
+  },
+  "model_poisoning|lf_tuned|99": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 99,
+    "accuracy": 92.398,
+    "f1_binary": 80.86199083631237,
+    "recall_binary": 95.09147966131802,
+    "precision_binary": 70.33679323785749,
+    "roc_auc": 93.4934089626878,
+    "mcc": 77.60044950545742,
+    "balanced_accuracy": 93.47106860783651,
+    "pr_auc": 67.82819953165377,
+    "confusion_matrix": [
+      [
+        76338,
+        6773
+      ],
+      [
+        829,
+        16060
+      ]
+    ],
+    "best_threshold": 0.8000000000000003
+  },
+  "model_poisoning|lf_tuned|500": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 500,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "recall_binary": 100.0,
+    "precision_binary": 16.889000000000003,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "balanced_accuracy": 50.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ],
+    "best_threshold": 0.1
+  },
+  "model_poisoning|lf_tuned|2024": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 2024,
+    "accuracy": 16.89,
+    "f1_binary": 28.897748271849977,
+    "recall_binary": 100.0,
+    "precision_binary": 16.889168891688914,
+    "roc_auc": 50.002406420329436,
+    "mcc": 0.14255251553074746,
+    "balanced_accuracy": 50.00060160508236,
+    "pr_auc": 16.889675587023483,
+    "confusion_matrix": [
+      [
+        1,
+        83110
+      ],
+      [
+        0,
+        16889
+      ]
+    ],
+    "best_threshold": 0.1
+  },
+  "model_poisoning|lf_tuned|31": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 31,
+    "accuracy": 97.053,
+    "f1_binary": 91.53282574342767,
+    "recall_binary": 94.31582686956007,
+    "precision_binary": 88.90935476668899,
+    "roc_auc": 99.54129740831942,
+    "mcc": 89.8080580554612,
+    "balanced_accuracy": 95.96252413613125,
+    "pr_auc": 98.02632327361746,
+    "confusion_matrix": [
+      [
+        81124,
+        1987
+      ],
+      [
+        960,
+        15929
+      ]
+    ],
+    "best_threshold": 0.20000000000000004
+  },
+  "model_poisoning|lf_tuned|77": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 77,
+    "accuracy": 65.821,
+    "f1_binary": 49.11643417546262,
+    "recall_binary": 97.67304162472615,
+    "precision_binary": 32.80696869655145,
+    "roc_auc": 78.52607636800778,
+    "mcc": 42.72734145994949,
+    "balanced_accuracy": 78.51069149975704,
+    "pr_auc": 32.44631551946026,
+    "confusion_matrix": [
+      [
+        49325,
+        33786
+      ],
+      [
+        393,
+        16496
+      ]
+    ],
+    "best_threshold": 0.15000000000000002
+  },
+  "model_poisoning|lf_tuned|1001": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 1001,
+    "accuracy": 96.518,
+    "f1_binary": 89.67745760702005,
+    "recall_binary": 89.55533187281662,
+    "precision_binary": 89.79991687941579,
+    "roc_auc": 98.95669727833327,
+    "mcc": 87.58337077553875,
+    "balanced_accuracy": 93.74410840491429,
+    "pr_auc": 96.52402666141415,
+    "confusion_matrix": [
+      [
+        81393,
+        1718
+      ],
+      [
+        1764,
+        15125
+      ]
+    ],
+    "best_threshold": 0.8500000000000003
+  },
+  "model_poisoning|lf_tuned|256": {
+    "attack": "model_poisoning",
+    "config": "lf_tuned",
+    "seed": 256,
+    "accuracy": 90.082,
+    "f1_binary": 76.28407460545193,
+    "recall_binary": 94.44608917046598,
+    "precision_binary": 63.98058641851511,
+    "roc_auc": 91.90492572391442,
+    "mcc": 72.43552855247579,
+    "balanced_accuracy": 91.82063094564256,
+    "pr_auc": 61.68697487110859,
+    "confusion_matrix": [
+      [
+        74131,
+        8980
+      ],
+      [
+        938,
+        15951
+      ]
+    ],
+    "best_threshold": 0.9000000000000002
+  }
+}

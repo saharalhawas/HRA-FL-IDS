@@ -1,0 +1,4411 @@
+{
+  "fedavg|42": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|42": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 7,
+    "threshold": 0.9000000000000002,
+    "accuracy": 55.525999999999996,
+    "f1_binary": 43.08129415378315,
+    "precision_binary": 27.480529658595522,
+    "recall_binary": 99.65658120670258,
+    "roc_auc": 98.12280431287601,
+    "mcc": 35.53998263078285,
+    "pr_auc": 93.76540609079399,
+    "confusion_matrix": [
+      [
+        38695,
+        44416
+      ],
+      [
+        58,
+        16831
+      ]
+    ]
+  },
+  "trimmed_mean|42": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 42,
+    "threshold": 0.5500000000000002,
+    "accuracy": 93.976,
+    "f1_binary": 84.3141339443808,
+    "precision_binary": 75.24982570299791,
+    "recall_binary": 95.86121143939843,
+    "roc_auc": 98.90830381499644,
+    "mcc": 81.55818453304751,
+    "pr_auc": 95.61850600157705,
+    "confusion_matrix": [
+      [
+        77786,
+        5325
+      ],
+      [
+        699,
+        16190
+      ]
+    ]
+  },
+  "krum|42": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 48,
+    "threshold": 0.9000000000000002,
+    "accuracy": 94.197,
+    "f1_binary": 85.21415649603792,
+    "precision_binary": 74.79202075319796,
+    "recall_binary": 99.01119071585055,
+    "roc_auc": 99.4683040356764,
+    "mcc": 82.93505142342869,
+    "pr_auc": 97.231541365114,
+    "confusion_matrix": [
+      [
+        77475,
+        5636
+      ],
+      [
+        167,
+        16722
+      ]
+    ]
+  },
+  "multi_krum|42": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 47,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.54899999999999,
+    "f1_binary": 92.81168431240286,
+    "precision_binary": 91.95141794514178,
+    "recall_binary": 93.68819941974066,
+    "roc_auc": 99.66810937637631,
+    "mcc": 91.34028028904227,
+    "pr_auc": 98.59952176598368,
+    "confusion_matrix": [
+      [
+        81726,
+        1385
+      ],
+      [
+        1066,
+        15823
+      ]
+    ]
+  },
+  "foolsgold|42": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 6,
+    "threshold": 0.9000000000000002,
+    "accuracy": 74.369,
+    "f1_binary": 56.72851282224436,
+    "precision_binary": 39.67740411864727,
+    "recall_binary": 99.47895079637634,
+    "roc_auc": 85.18218081951356,
+    "mcc": 52.1262372820977,
+    "pr_auc": 40.78454985384346,
+    "confusion_matrix": [
+      [
+        57568,
+        25543
+      ],
+      [
+        88,
+        16801
+      ]
+    ]
+  },
+  "hra|42": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 42,
+    "best_round": 50,
+    "threshold": 0.8000000000000003,
+    "accuracy": 97.108,
+    "f1_binary": 91.79481359586904,
+    "precision_binary": 88.12442120172142,
+    "recall_binary": 95.78423826159039,
+    "roc_auc": 99.59607417621893,
+    "mcc": 90.15839077227253,
+    "pr_auc": 98.27656365498927,
+    "confusion_matrix": [
+      [
+        80931,
+        2180
+      ],
+      [
+        712,
+        16177
+      ]
+    ],
+    "malicious_excluded_pct_mean": 83.5,
+    "honest_wrongly_excluded_pct_mean": 14.66666666666666,
+    "first_round_all_malicious_excluded": 13,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ]
+    ]
+  },
+  "fedavg|123": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|123": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 27,
+    "threshold": 0.7500000000000002,
+    "accuracy": 96.629,
+    "f1_binary": 90.39190537266639,
+    "precision_binary": 87.14552648933832,
+    "recall_binary": 93.88951388477707,
+    "roc_auc": 99.06806075882051,
+    "mcc": 88.44150953708578,
+    "pr_auc": 95.822655589117,
+    "confusion_matrix": [
+      [
+        80772,
+        2339
+      ],
+      [
+        1032,
+        15857
+      ]
+    ]
+  },
+  "trimmed_mean|123": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 46,
+    "threshold": 0.7000000000000002,
+    "accuracy": 96.94,
+    "f1_binary": 91.29247054806214,
+    "precision_binary": 87.88144414616775,
+    "recall_binary": 94.97898040144473,
+    "roc_auc": 99.4622099746017,
+    "mcc": 89.53897567737563,
+    "pr_auc": 97.79714516495518,
+    "confusion_matrix": [
+      [
+        80899,
+        2212
+      ],
+      [
+        848,
+        16041
+      ]
+    ]
+  },
+  "krum|123": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 46,
+    "threshold": 0.9000000000000002,
+    "accuracy": 97.162,
+    "f1_binary": 91.89235515941036,
+    "precision_binary": 88.78277670438864,
+    "recall_binary": 95.22766297590147,
+    "roc_auc": 99.59910642399178,
+    "mcc": 90.25620508264518,
+    "pr_auc": 98.42316092430158,
+    "confusion_matrix": [
+      [
+        81079,
+        2032
+      ],
+      [
+        806,
+        16083
+      ]
+    ]
+  },
+  "multi_krum|123": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 16,
+    "threshold": 0.7500000000000002,
+    "accuracy": 97.187,
+    "f1_binary": 91.86406362979031,
+    "precision_binary": 89.79418749293227,
+    "recall_binary": 94.03161821303807,
+    "roc_auc": 99.55984838850902,
+    "mcc": 90.19971525085938,
+    "pr_auc": 98.0524360396892,
+    "confusion_matrix": [
+      [
+        81306,
+        1805
+      ],
+      [
+        1008,
+        15881
+      ]
+    ]
+  },
+  "foolsgold|123": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "hra|123": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 123,
+    "best_round": 48,
+    "threshold": 0.7000000000000002,
+    "accuracy": 97.576,
+    "f1_binary": 92.92758359106028,
+    "precision_binary": 91.60195570894449,
+    "recall_binary": 94.2921428148499,
+    "roc_auc": 99.66521195453964,
+    "mcc": 91.47924886601993,
+    "pr_auc": 98.62781620045548,
+    "confusion_matrix": [
+      [
+        81651,
+        1460
+      ],
+      [
+        964,
+        15925
+      ]
+    ],
+    "malicious_excluded_pct_mean": 86.0,
+    "honest_wrongly_excluded_pct_mean": 0.0,
+    "first_round_all_malicious_excluded": 9,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|7": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|7": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 25,
+    "threshold": 0.9000000000000002,
+    "accuracy": 97.074,
+    "f1_binary": 91.09121909633419,
+    "precision_binary": 93.7574428078972,
+    "recall_binary": 88.57244360234472,
+    "roc_auc": 99.52090260775725,
+    "mcc": 89.39419646773376,
+    "pr_auc": 97.97297505977275,
+    "confusion_matrix": [
+      [
+        82115,
+        996
+      ],
+      [
+        1930,
+        14959
+      ]
+    ]
+  },
+  "trimmed_mean|7": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 47,
+    "threshold": 0.7500000000000002,
+    "accuracy": 97.666,
+    "f1_binary": 93.28693051081454,
+    "precision_binary": 90.70417808602271,
+    "recall_binary": 96.02107880869205,
+    "roc_auc": 99.74201935165888,
+    "mcc": 91.93035722259665,
+    "pr_auc": 98.87650738414045,
+    "confusion_matrix": [
+      [
+        81449,
+        1662
+      ],
+      [
+        672,
+        16217
+      ]
+    ]
+  },
+  "krum|7": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 50,
+    "threshold": 0.8500000000000003,
+    "accuracy": 97.461,
+    "f1_binary": 92.65059194720237,
+    "precision_binary": 90.63314078604598,
+    "recall_binary": 94.75990289537569,
+    "roc_auc": 99.68045437393464,
+    "mcc": 91.14993194030106,
+    "pr_auc": 98.56547058822477,
+    "confusion_matrix": [
+      [
+        81457,
+        1654
+      ],
+      [
+        885,
+        16004
+      ]
+    ]
+  },
+  "multi_krum|7": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 49,
+    "threshold": 0.5500000000000002,
+    "accuracy": 97.748,
+    "f1_binary": 93.4980944681834,
+    "precision_binary": 91.23795571082437,
+    "recall_binary": 95.8730534667535,
+    "roc_auc": 99.73555582833576,
+    "mcc": 92.17863067957029,
+    "pr_auc": 98.83373944627822,
+    "confusion_matrix": [
+      [
+        81556,
+        1555
+      ],
+      [
+        697,
+        16192
+      ]
+    ]
+  },
+  "foolsgold|7": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 6,
+    "threshold": 0.5000000000000001,
+    "accuracy": 92.683,
+    "f1_binary": 72.97506925207756,
+    "precision_binary": 96.9860592970744,
+    "recall_binary": 58.49369412043342,
+    "roc_auc": 88.95142976258454,
+    "mcc": 71.99712697221864,
+    "pr_auc": 68.5123893009588,
+    "confusion_matrix": [
+      [
+        82804,
+        307
+      ],
+      [
+        7010,
+        9879
+      ]
+    ]
+  },
+  "hra|7": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 7,
+    "best_round": 49,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.90299999999999,
+    "f1_binary": 93.704404215077,
+    "precision_binary": 95.04263093788063,
+    "recall_binary": 92.40333945171413,
+    "roc_auc": 99.75796283030107,
+    "mcc": 92.45988116756268,
+    "pr_auc": 98.91772058240514,
+    "confusion_matrix": [
+      [
+        82297,
+        814
+      ],
+      [
+        1283,
+        15606
+      ]
+    ],
+    "malicious_excluded_pct_mean": 86.5,
+    "honest_wrongly_excluded_pct_mean": 0.0,
+    "first_round_all_malicious_excluded": 8,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|99": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|99": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 44,
+    "threshold": 0.7000000000000002,
+    "accuracy": 97.676,
+    "f1_binary": 93.23395830907185,
+    "precision_binary": 91.71201099719343,
+    "recall_binary": 94.80727100479602,
+    "roc_auc": 99.6774379419387,
+    "mcc": 91.84991919679717,
+    "pr_auc": 98.67608153325465,
+    "confusion_matrix": [
+      [
+        81664,
+        1447
+      ],
+      [
+        877,
+        16012
+      ]
+    ]
+  },
+  "trimmed_mean|99": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 45,
+    "threshold": 0.7000000000000002,
+    "accuracy": 97.729,
+    "f1_binary": 93.3972961186219,
+    "precision_binary": 91.75139952016451,
+    "recall_binary": 95.1033216886731,
+    "roc_auc": 99.67525205195831,
+    "mcc": 92.04809445245083,
+    "pr_auc": 98.6359992523106,
+    "confusion_matrix": [
+      [
+        81667,
+        1444
+      ],
+      [
+        827,
+        16062
+      ]
+    ]
+  },
+  "krum|99": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 41,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.985,
+    "f1_binary": 94.06007723373523,
+    "precision_binary": 93.65973934483974,
+    "recall_binary": 94.4638522114986,
+    "roc_auc": 99.73356642444892,
+    "mcc": 92.84804137256285,
+    "pr_auc": 98.88773913089221,
+    "confusion_matrix": [
+      [
+        82031,
+        1080
+      ],
+      [
+        935,
+        15954
+      ]
+    ]
+  },
+  "multi_krum|99": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 29,
+    "threshold": 0.7500000000000002,
+    "accuracy": 97.346,
+    "f1_binary": 92.16508236405502,
+    "precision_binary": 91.90462172505151,
+    "recall_binary": 92.4270235064243,
+    "roc_auc": 99.60669635834661,
+    "mcc": 90.5680424098968,
+    "pr_auc": 98.2726549405114,
+    "confusion_matrix": [
+      [
+        81736,
+        1375
+      ],
+      [
+        1279,
+        15610
+      ]
+    ]
+  },
+  "foolsgold|99": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "hra|99": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 99,
+    "best_round": 49,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.626,
+    "f1_binary": 93.07104080322223,
+    "precision_binary": 91.77459275887871,
+    "recall_binary": 94.40464207472318,
+    "roc_auc": 99.71667296617848,
+    "mcc": 91.65232099772462,
+    "pr_auc": 98.81091684151876,
+    "confusion_matrix": [
+      [
+        81682,
+        1429
+      ],
+      [
+        945,
+        15944
+      ]
+    ],
+    "malicious_excluded_pct_mean": 85.0,
+    "honest_wrongly_excluded_pct_mean": 0.0,
+    "first_round_all_malicious_excluded": 10,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|500": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|500": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 9,
+    "threshold": 0.8000000000000003,
+    "accuracy": 94.285,
+    "f1_binary": 82.41808952468851,
+    "precision_binary": 85.77740778688525,
+    "recall_binary": 79.31197821066966,
+    "roc_auc": 98.54432440482688,
+    "mcc": 79.09877750445632,
+    "pr_auc": 93.01344008029531,
+    "confusion_matrix": [
+      [
+        80890,
+        2221
+      ],
+      [
+        3494,
+        13395
+      ]
+    ]
+  },
+  "trimmed_mean|500": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 46,
+    "threshold": 0.6000000000000002,
+    "accuracy": 96.986,
+    "f1_binary": 91.2885137869241,
+    "precision_binary": 89.17499576486533,
+    "recall_binary": 93.50464799573686,
+    "roc_auc": 99.55849318302862,
+    "mcc": 89.5042783314779,
+    "pr_auc": 98.08504967276399,
+    "confusion_matrix": [
+      [
+        81194,
+        1917
+      ],
+      [
+        1097,
+        15792
+      ]
+    ]
+  },
+  "krum|500": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 46,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.502,
+    "f1_binary": 92.76571097596293,
+    "precision_binary": 90.78850405305822,
+    "recall_binary": 94.83095505950618,
+    "roc_auc": 99.67154631568452,
+    "mcc": 91.28856276191823,
+    "pr_auc": 98.61899227736761,
+    "confusion_matrix": [
+      [
+        81486,
+        1625
+      ],
+      [
+        873,
+        16016
+      ]
+    ]
+  },
+  "multi_krum|500": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 50,
+    "threshold": 0.8500000000000003,
+    "accuracy": 97.363,
+    "f1_binary": 92.1054995060324,
+    "precision_binary": 93.15126559283033,
+    "recall_binary": 91.08295340162236,
+    "roc_auc": 99.65939702055512,
+    "mcc": 90.5310994601475,
+    "pr_auc": 98.503529335436,
+    "confusion_matrix": [
+      [
+        81980,
+        1131
+      ],
+      [
+        1506,
+        15383
+      ]
+    ]
+  },
+  "foolsgold|500": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 1,
+    "threshold": 0.3500000000000001,
+    "accuracy": 95.965,
+    "f1_binary": 88.45856811876091,
+    "precision_binary": 85.56330234617087,
+    "recall_binary": 91.55663449582569,
+    "roc_auc": 98.7653465034148,
+    "mcc": 86.08945665178312,
+    "pr_auc": 95.47872100419471,
+    "confusion_matrix": [
+      [
+        80502,
+        2609
+      ],
+      [
+        1426,
+        15463
+      ]
+    ]
+  },
+  "hra|500": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 500,
+    "best_round": 48,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.43,
+    "f1_binary": 92.53297693067582,
+    "precision_binary": 90.84374465172,
+    "recall_binary": 94.28622180117236,
+    "roc_auc": 99.6700412521556,
+    "mcc": 91.00447746237047,
+    "pr_auc": 98.54563139830749,
+    "confusion_matrix": [
+      [
+        81506,
+        1605
+      ],
+      [
+        965,
+        15924
+      ]
+    ],
+    "malicious_excluded_pct_mean": 86.5,
+    "honest_wrongly_excluded_pct_mean": 0.0,
+    "first_round_all_malicious_excluded": 8,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|2024": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|2024": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 9,
+    "threshold": 0.1,
+    "accuracy": 90.09700000000001,
+    "f1_binary": 75.84103827669489,
+    "precision_binary": 64.49257323043732,
+    "recall_binary": 92.03623660370656,
+    "roc_auc": 96.76736020660431,
+    "mcc": 71.60110198448554,
+    "pr_auc": 86.39054437255841,
+    "confusion_matrix": [
+      [
+        74553,
+        8558
+      ],
+      [
+        1345,
+        15544
+      ]
+    ]
+  },
+  "trimmed_mean|2024": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 50,
+    "threshold": 0.6500000000000001,
+    "accuracy": 96.70100000000001,
+    "f1_binary": 90.56431084289106,
+    "precision_binary": 87.59544096492199,
+    "recall_binary": 93.74148854283854,
+    "roc_auc": 99.23232993667843,
+    "mcc": 88.64291291367095,
+    "pr_auc": 96.43518589103918,
+    "confusion_matrix": [
+      [
+        80869,
+        2242
+      ],
+      [
+        1057,
+        15832
+      ]
+    ]
+  },
+  "krum|2024": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 47,
+    "threshold": 0.9000000000000002,
+    "accuracy": 94.61500000000001,
+    "f1_binary": 86.20751479138386,
+    "precision_binary": 75.96370858535705,
+    "recall_binary": 99.64473917934751,
+    "roc_auc": 99.66184508197293,
+    "mcc": 84.11593774680105,
+    "pr_auc": 98.13175702427763,
+    "confusion_matrix": [
+      [
+        77786,
+        5325
+      ],
+      [
+        60,
+        16829
+      ]
+    ]
+  },
+  "multi_krum|2024": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 37,
+    "threshold": 0.6500000000000001,
+    "accuracy": 96.91199999999999,
+    "f1_binary": 91.16047403675502,
+    "precision_binary": 88.2405098365198,
+    "recall_binary": 94.28030078749482,
+    "roc_auc": 99.4526282853662,
+    "mcc": 89.36401269399981,
+    "pr_auc": 97.66597240274814,
+    "confusion_matrix": [
+      [
+        80989,
+        2122
+      ],
+      [
+        966,
+        15923
+      ]
+    ]
+  },
+  "foolsgold|2024": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 2,
+    "threshold": 0.1,
+    "accuracy": 93.273,
+    "f1_binary": 77.57442410907758,
+    "precision_binary": 88.76258773268233,
+    "recall_binary": 68.89099413819646,
+    "roc_auc": 96.12461903649361,
+    "mcc": 74.51031887694926,
+    "pr_auc": 88.53374687735432,
+    "confusion_matrix": [
+      [
+        81638,
+        1473
+      ],
+      [
+        5254,
+        11635
+      ]
+    ]
+  },
+  "hra|2024": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 2024,
+    "best_round": 42,
+    "threshold": 0.8000000000000003,
+    "accuracy": 97.197,
+    "f1_binary": 91.82011848133773,
+    "precision_binary": 90.52825411439751,
+    "recall_binary": 93.14938717508437,
+    "roc_auc": 99.54413455922237,
+    "mcc": 90.14262562760939,
+    "pr_auc": 97.96982862347367,
+    "confusion_matrix": [
+      [
+        81465,
+        1646
+      ],
+      [
+        1157,
+        15732
+      ]
+    ],
+    "malicious_excluded_pct_mean": 64.5,
+    "honest_wrongly_excluded_pct_mean": 5.666666666666666,
+    "first_round_all_malicious_excluded": 11,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        6
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|31": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 3,
+    "threshold": 0.5000000000000001,
+    "accuracy": 97.09100000000001,
+    "f1_binary": 91.45793569226251,
+    "precision_binary": 90.72002796225095,
+    "recall_binary": 92.20794600035525,
+    "roc_auc": 99.43583588421096,
+    "mcc": 89.70939560393099,
+    "pr_auc": 97.78470929605571,
+    "confusion_matrix": [
+      [
+        81518,
+        1593
+      ],
+      [
+        1316,
+        15573
+      ]
+    ]
+  },
+  "coordinate_median|31": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 33,
+    "threshold": 0.3500000000000001,
+    "accuracy": 97.753,
+    "f1_binary": 93.18822566465577,
+    "precision_binary": 95.47769909305504,
+    "recall_binary": 91.00598022381432,
+    "roc_auc": 99.71266373796901,
+    "mcc": 91.88162826824397,
+    "pr_auc": 98.67724751464556,
+    "confusion_matrix": [
+      [
+        82383,
+        728
+      ],
+      [
+        1519,
+        15370
+      ]
+    ]
+  },
+  "trimmed_mean|31": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 49,
+    "threshold": 0.4500000000000001,
+    "accuracy": 97.803,
+    "f1_binary": 93.35149039188984,
+    "precision_binary": 95.46917553849963,
+    "recall_binary": 91.32571496240156,
+    "roc_auc": 99.75745554994239,
+    "mcc": 92.0688461659987,
+    "pr_auc": 98.90769959911134,
+    "confusion_matrix": [
+      [
+        82379,
+        732
+      ],
+      [
+        1465,
+        15424
+      ]
+    ]
+  },
+  "krum|31": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 47,
+    "threshold": 0.8500000000000003,
+    "accuracy": 97.684,
+    "f1_binary": 93.24623818966523,
+    "precision_binary": 91.869217950928,
+    "recall_binary": 94.66516667653502,
+    "roc_auc": 99.71017157760562,
+    "mcc": 91.86401019382886,
+    "pr_auc": 98.36540730280683,
+    "confusion_matrix": [
+      [
+        81696,
+        1415
+      ],
+      [
+        901,
+        15988
+      ]
+    ]
+  },
+  "multi_krum|31": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 33,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.749,
+    "f1_binary": 93.20739913696853,
+    "precision_binary": 95.04,
+    "recall_binary": 91.4441352359524,
+    "roc_auc": 99.72605503466197,
+    "mcc": 91.8835132649058,
+    "pr_auc": 98.81155857021776,
+    "confusion_matrix": [
+      [
+        82305,
+        806
+      ],
+      [
+        1445,
+        15444
+      ]
+    ]
+  },
+  "foolsgold|31": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 2,
+    "threshold": 0.7500000000000002,
+    "accuracy": 96.20400000000001,
+    "f1_binary": 89.13628298322935,
+    "precision_binary": 86.26267102420651,
+    "recall_binary": 92.20794600035525,
+    "roc_auc": 99.1183808616321,
+    "mcc": 86.91037349546825,
+    "pr_auc": 96.6041319088424,
+    "confusion_matrix": [
+      [
+        80631,
+        2480
+      ],
+      [
+        1316,
+        15573
+      ]
+    ]
+  },
+  "hra|31": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 31,
+    "best_round": 39,
+    "threshold": 0.3500000000000001,
+    "accuracy": 97.651,
+    "f1_binary": 93.39816194036142,
+    "precision_binary": 88.89364433982453,
+    "recall_binary": 98.38356326603115,
+    "roc_auc": 99.75746320848303,
+    "mcc": 92.14898050513887,
+    "pr_auc": 98.87468610975966,
+    "confusion_matrix": [
+      [
+        81035,
+        2076
+      ],
+      [
+        273,
+        16616
+      ]
+    ],
+    "malicious_excluded_pct_mean": 84.0,
+    "honest_wrongly_excluded_pct_mean": 0.0,
+    "first_round_all_malicious_excluded": 10,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|77": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|77": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 25,
+    "threshold": 0.7500000000000002,
+    "accuracy": 94.757,
+    "f1_binary": 83.9815465460878,
+    "precision_binary": 86.7567226360308,
+    "recall_binary": 81.37841198413169,
+    "roc_auc": 98.18350843501227,
+    "mcc": 80.9100868251876,
+    "pr_auc": 93.17074797536901,
+    "confusion_matrix": [
+      [
+        81013,
+        2098
+      ],
+      [
+        3145,
+        13744
+      ]
+    ]
+  },
+  "trimmed_mean|77": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 50,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.602,
+    "f1_binary": 92.7381745502998,
+    "precision_binary": 94.91105188123721,
+    "recall_binary": 90.6625614305169,
+    "roc_auc": 99.71308552764158,
+    "mcc": 91.33729772673533,
+    "pr_auc": 98.70327976737113,
+    "confusion_matrix": [
+      [
+        82290,
+        821
+      ],
+      [
+        1577,
+        15312
+      ]
+    ]
+  },
+  "krum|77": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 46,
+    "threshold": 0.7000000000000002,
+    "accuracy": 97.812,
+    "f1_binary": 93.27059112997478,
+    "precision_binary": 97.0432,
+    "recall_binary": 89.78033039256322,
+    "roc_auc": 99.77142348131311,
+    "mcc": 92.0657683984831,
+    "pr_auc": 98.99188689524934,
+    "confusion_matrix": [
+      [
+        82649,
+        462
+      ],
+      [
+        1726,
+        15163
+      ]
+    ]
+  },
+  "multi_krum|77": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 20,
+    "threshold": 0.8000000000000003,
+    "accuracy": 97.583,
+    "f1_binary": 92.54127449467676,
+    "precision_binary": 96.63573085846868,
+    "recall_binary": 88.77967908105869,
+    "roc_auc": 99.70444181371714,
+    "mcc": 91.21879236461389,
+    "pr_auc": 98.69394473987462,
+    "confusion_matrix": [
+      [
+        82589,
+        522
+      ],
+      [
+        1895,
+        14994
+      ]
+    ]
+  },
+  "foolsgold|77": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 3,
+    "threshold": 0.25000000000000006,
+    "accuracy": 96.705,
+    "f1_binary": 90.394426143486,
+    "precision_binary": 89.03181348340415,
+    "recall_binary": 91.79939605660489,
+    "roc_auc": 99.29383699446281,
+    "mcc": 88.42150602002606,
+    "pr_auc": 97.07758799464649,
+    "confusion_matrix": [
+      [
+        81201,
+        1910
+      ],
+      [
+        1385,
+        15504
+      ]
+    ]
+  },
+  "hra|77": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 77,
+    "best_round": 44,
+    "threshold": 0.6500000000000001,
+    "accuracy": 98.021,
+    "f1_binary": 94.17101116314689,
+    "precision_binary": 93.69358809049349,
+    "recall_binary": 94.65332464917994,
+    "roc_auc": 99.76845324990879,
+    "mcc": 92.98098277192418,
+    "pr_auc": 98.94544919524215,
+    "confusion_matrix": [
+      [
+        82035,
+        1076
+      ],
+      [
+        903,
+        15986
+      ]
+    ],
+    "malicious_excluded_pct_mean": 84.5,
+    "honest_wrongly_excluded_pct_mean": 0.0,
+    "first_round_all_malicious_excluded": 8,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|1001": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|1001": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 29,
+    "threshold": 0.9000000000000002,
+    "accuracy": 96.95700000000001,
+    "f1_binary": 91.36664113257866,
+    "precision_binary": 87.71107963830482,
+    "recall_binary": 95.34016223577476,
+    "roc_auc": 99.61771322247517,
+    "mcc": 89.63823957981953,
+    "pr_auc": 98.33550538471127,
+    "confusion_matrix": [
+      [
+        80855,
+        2256
+      ],
+      [
+        787,
+        16102
+      ]
+    ]
+  },
+  "trimmed_mean|1001": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 36,
+    "threshold": 0.8000000000000003,
+    "accuracy": 97.609,
+    "f1_binary": 93.03747706822747,
+    "precision_binary": 91.53678661471464,
+    "recall_binary": 94.58819349872698,
+    "roc_auc": 99.7118658605198,
+    "mcc": 91.61256389862731,
+    "pr_auc": 98.74602742804618,
+    "confusion_matrix": [
+      [
+        81634,
+        1477
+      ],
+      [
+        914,
+        15975
+      ]
+    ]
+  },
+  "krum|1001": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 40,
+    "threshold": 0.9000000000000002,
+    "accuracy": 95.33,
+    "f1_binary": 87.78126635269491,
+    "precision_binary": 78.64141390464582,
+    "recall_binary": 99.32500444076025,
+    "roc_auc": 99.70877501600583,
+    "mcc": 85.82750941050051,
+    "pr_auc": 98.54266973765529,
+    "confusion_matrix": [
+      [
+        78555,
+        4556
+      ],
+      [
+        114,
+        16775
+      ]
+    ]
+  },
+  "multi_krum|1001": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 49,
+    "threshold": 0.8500000000000003,
+    "accuracy": 97.565,
+    "f1_binary": 92.51529216487874,
+    "precision_binary": 96.19662490411659,
+    "recall_binary": 89.10533483332347,
+    "roc_auc": 99.69036082091402,
+    "mcc": 91.15901769253264,
+    "pr_auc": 98.63911817257011,
+    "confusion_matrix": [
+      [
+        82516,
+        595
+      ],
+      [
+        1840,
+        15049
+      ]
+    ]
+  },
+  "foolsgold|1001": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 7,
+    "threshold": 0.5000000000000001,
+    "accuracy": 91.77199999999999,
+    "f1_binary": 69.95764568424127,
+    "precision_binary": 91.24678540813412,
+    "recall_binary": 56.72331103084848,
+    "roc_auc": 87.51155865244648,
+    "mcc": 67.9759442354154,
+    "pr_auc": 66.54513218137849,
+    "confusion_matrix": [
+      [
+        82192,
+        919
+      ],
+      [
+        7309,
+        9580
+      ]
+    ]
+  },
+  "hra|1001": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 1001,
+    "best_round": 45,
+    "threshold": 0.9000000000000002,
+    "accuracy": 97.682,
+    "f1_binary": 93.25888442970977,
+    "precision_binary": 91.63856661141911,
+    "recall_binary": 94.93753330570193,
+    "roc_auc": 99.75058013961781,
+    "mcc": 91.88071851971401,
+    "pr_auc": 98.87932877015993,
+    "confusion_matrix": [
+      [
+        81648,
+        1463
+      ],
+      [
+        855,
+        16034
+      ]
+    ],
+    "malicious_excluded_pct_mean": 86.5,
+    "honest_wrongly_excluded_pct_mean": 6.333333333333332,
+    "first_round_all_malicious_excluded": 8,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "fedavg|256": {
+    "defense": "fedavg",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 1,
+    "threshold": 0.1,
+    "accuracy": 16.889000000000003,
+    "f1_binary": 28.897501048002805,
+    "precision_binary": 16.889000000000003,
+    "recall_binary": 100.0,
+    "roc_auc": 50.0,
+    "mcc": 0.0,
+    "pr_auc": 16.889000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        83111
+      ],
+      [
+        0,
+        16889
+      ]
+    ]
+  },
+  "coordinate_median|256": {
+    "defense": "coordinate_median",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 33,
+    "threshold": 0.9000000000000002,
+    "accuracy": 94.46,
+    "f1_binary": 85.76713595725003,
+    "precision_binary": 75.75221238938053,
+    "recall_binary": 98.8335603055243,
+    "roc_auc": 99.53873792404075,
+    "mcc": 83.5255652894556,
+    "pr_auc": 97.95275412482934,
+    "confusion_matrix": [
+      [
+        77768,
+        5343
+      ],
+      [
+        197,
+        16692
+      ]
+    ]
+  },
+  "trimmed_mean|256": {
+    "defense": "trimmed_mean",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 50,
+    "threshold": 0.9000000000000002,
+    "accuracy": 94.973,
+    "f1_binary": 86.93505210905215,
+    "precision_binary": 77.47359644246804,
+    "recall_binary": 99.02895375688317,
+    "roc_auc": 99.65846310605163,
+    "mcc": 84.84884535309695,
+    "pr_auc": 98.46901177564578,
+    "confusion_matrix": [
+      [
+        78248,
+        4863
+      ],
+      [
+        164,
+        16725
+      ]
+    ]
+  },
+  "krum|256": {
+    "defense": "krum",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 48,
+    "threshold": 0.9000000000000002,
+    "accuracy": 92.872,
+    "f1_binary": 82.50024550721791,
+    "precision_binary": 70.46932013588894,
+    "recall_binary": 99.48487181005387,
+    "roc_auc": 99.3876394769056,
+    "mcc": 80.0201972985018,
+    "pr_auc": 96.7712211753146,
+    "confusion_matrix": [
+      [
+        76070,
+        7041
+      ],
+      [
+        87,
+        16802
+      ]
+    ]
+  },
+  "multi_krum|256": {
+    "defense": "multi_krum",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 26,
+    "threshold": 0.8500000000000003,
+    "accuracy": 97.28099999999999,
+    "f1_binary": 92.10488109410842,
+    "precision_binary": 90.37037037037037,
+    "recall_binary": 93.9072769258097,
+    "roc_auc": 99.65255790815102,
+    "mcc": 90.48763876062094,
+    "pr_auc": 98.47210063304551,
+    "confusion_matrix": [
+      [
+        81421,
+        1690
+      ],
+      [
+        1029,
+        15860
+      ]
+    ]
+  },
+  "foolsgold|256": {
+    "defense": "foolsgold",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 6,
+    "threshold": 0.4500000000000001,
+    "accuracy": 33.663,
+    "f1_binary": 33.71933856222211,
+    "precision_binary": 20.2822251069763,
+    "recall_binary": 99.91118479483687,
+    "roc_auc": 67.85289170810226,
+    "mcc": 20.152379671252334,
+    "pr_auc": 35.814430903110676,
+    "confusion_matrix": [
+      [
+        16789,
+        66322
+      ],
+      [
+        15,
+        16874
+      ]
+    ]
+  },
+  "hra|256": {
+    "defense": "hra",
+    "attack": "model_poisoning",
+    "seed": 256,
+    "best_round": 50,
+    "threshold": 0.9000000000000002,
+    "accuracy": 95.025,
+    "f1_binary": 87.0883184967948,
+    "precision_binary": 77.52518251547916,
+    "recall_binary": 99.34276748179288,
+    "roc_auc": 99.66385454054986,
+    "mcc": 85.05652877218107,
+    "pr_auc": 98.4942662754001,
+    "confusion_matrix": [
+      [
+        78247,
+        4864
+      ],
+      [
+        111,
+        16778
+      ]
+    ],
+    "malicious_excluded_pct_mean": 84.0,
+    "honest_wrongly_excluded_pct_mean": 0.6666666666666665,
+    "first_round_all_malicious_excluded": 9,
+    "excluded_per_round": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  }
+}

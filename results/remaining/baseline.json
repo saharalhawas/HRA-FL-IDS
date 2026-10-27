@@ -1,0 +1,242 @@
+{
+  "clean_fedavg|42": {
+    "config": "clean_fedavg",
+    "seed": 42,
+    "best_round": 22,
+    "threshold": 0.4500000000000001,
+    "accuracy": 97.565,
+    "f1_binary": 92.84139350286638,
+    "precision_binary": 92.19899567908443,
+    "recall_binary": 93.49280596838179,
+    "roc_auc": 99.64042514122093,
+    "mcc": 91.37769951659395,
+    "pr_auc": 98.10430080831247,
+    "confusion_matrix": [
+      [
+        81775,
+        1336
+      ],
+      [
+        1099,
+        15790
+      ]
+    ],
+    "rounds_run": 29
+  },
+  "clean_fedavg|123": {
+    "config": "clean_fedavg",
+    "seed": 123,
+    "best_round": 16,
+    "threshold": 0.6000000000000002,
+    "accuracy": 97.92699999999999,
+    "f1_binary": 93.7236973568682,
+    "precision_binary": 95.89838909541511,
+    "recall_binary": 91.6454497009888,
+    "roc_auc": 99.75520415272375,
+    "mcc": 92.51705891006766,
+    "pr_auc": 98.9433826072004,
+    "confusion_matrix": [
+      [
+        82449,
+        662
+      ],
+      [
+        1411,
+        15478
+      ]
+    ],
+    "rounds_run": 23
+  },
+  "clean_fedavg|7": {
+    "config": "clean_fedavg",
+    "seed": 7,
+    "best_round": 18,
+    "threshold": 0.5500000000000002,
+    "accuracy": 97.64399999999999,
+    "f1_binary": 93.16903450275443,
+    "precision_binary": 91.28458610306232,
+    "recall_binary": 95.13292675706082,
+    "roc_auc": 99.75186385351196,
+    "mcc": 91.77484268598425,
+    "pr_auc": 98.85591861640822,
+    "confusion_matrix": [
+      [
+        81577,
+        1534
+      ],
+      [
+        822,
+        16067
+      ]
+    ],
+    "rounds_run": 25
+  },
+  "clean_fedavg|99": {
+    "config": "clean_fedavg",
+    "seed": 99,
+    "best_round": 26,
+    "threshold": 0.6500000000000001,
+    "accuracy": 98.046,
+    "f1_binary": 94.11445783132531,
+    "precision_binary": 95.78198761571946,
+    "recall_binary": 92.50399668423233,
+    "roc_auc": 99.78822222302757,
+    "mcc": 92.9636754040572,
+    "pr_auc": 99.0600894522291,
+    "confusion_matrix": [
+      [
+        82423,
+        688
+      ],
+      [
+        1266,
+        15623
+      ]
+    ],
+    "rounds_run": 33
+  },
+  "clean_fedavg|500": {
+    "config": "clean_fedavg",
+    "seed": 500,
+    "best_round": 13,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.717,
+    "f1_binary": 92.9928485927381,
+    "precision_binary": 96.53963803211828,
+    "recall_binary": 89.69743620107764,
+    "roc_auc": 99.72898447988477,
+    "mcc": 91.71973548159119,
+    "pr_auc": 98.80536236141786,
+    "confusion_matrix": [
+      [
+        82568,
+        543
+      ],
+      [
+        1740,
+        15149
+      ]
+    ],
+    "rounds_run": 20
+  },
+  "clean_fedavg|2024": {
+    "config": "clean_fedavg",
+    "seed": 2024,
+    "best_round": 20,
+    "threshold": 0.5000000000000001,
+    "accuracy": 97.961,
+    "f1_binary": 93.89392986554068,
+    "precision_binary": 94.98909355307804,
+    "recall_binary": 92.82373142281959,
+    "roc_auc": 99.72672253881485,
+    "mcc": 92.67916335081135,
+    "pr_auc": 98.86034269762754,
+    "confusion_matrix": [
+      [
+        82284,
+        827
+      ],
+      [
+        1212,
+        15677
+      ]
+    ],
+    "rounds_run": 27
+  },
+  "clean_fedavg|31": {
+    "config": "clean_fedavg",
+    "seed": 31,
+    "best_round": 15,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.916,
+    "f1_binary": 93.71114732331462,
+    "precision_binary": 95.55664963997785,
+    "recall_binary": 91.93557937118835,
+    "roc_auc": 99.75475009031717,
+    "mcc": 92.48754930473373,
+    "pr_auc": 98.92849216569591,
+    "confusion_matrix": [
+      [
+        82389,
+        722
+      ],
+      [
+        1362,
+        15527
+      ]
+    ],
+    "rounds_run": 22
+  },
+  "clean_fedavg|77": {
+    "config": "clean_fedavg",
+    "seed": 77,
+    "best_round": 19,
+    "threshold": 0.6500000000000001,
+    "accuracy": 97.807,
+    "f1_binary": 93.37282040433955,
+    "precision_binary": 95.35242562646586,
+    "recall_binary": 91.4737403043401,
+    "roc_auc": 99.75054957669755,
+    "mcc": 92.08810380112362,
+    "pr_auc": 98.87910071155643,
+    "confusion_matrix": [
+      [
+        82358,
+        753
+      ],
+      [
+        1440,
+        15449
+      ]
+    ],
+    "rounds_run": 26
+  },
+  "clean_fedavg|1001": {
+    "config": "clean_fedavg",
+    "seed": 1001,
+    "best_round": 16,
+    "threshold": 0.4500000000000001,
+    "accuracy": 97.491,
+    "f1_binary": 92.63596607085205,
+    "precision_binary": 91.84611803049704,
+    "recall_binary": 93.4395168452839,
+    "roc_auc": 99.6423235331482,
+    "mcc": 91.12890393067032,
+    "pr_auc": 98.49959010137779,
+    "confusion_matrix": [
+      [
+        81710,
+        1401
+      ],
+      [
+        1108,
+        15781
+      ]
+    ],
+    "rounds_run": 23
+  },
+  "clean_fedavg|256": {
+    "config": "clean_fedavg",
+    "seed": 256,
+    "best_round": 9,
+    "threshold": 0.6000000000000002,
+    "accuracy": 97.57900000000001,
+    "f1_binary": 92.91006530588338,
+    "precision_binary": 91.91679221230734,
+    "recall_binary": 93.92503996684233,
+    "roc_auc": 99.71500222882412,
+    "mcc": 91.45830965338511,
+    "pr_auc": 98.7703506311959,
+    "confusion_matrix": [
+      [
+        81716,
+        1395
+      ],
+      [
+        1026,
+        15863
+      ]
+    ],
+    "rounds_run": 16
+  }
+}
